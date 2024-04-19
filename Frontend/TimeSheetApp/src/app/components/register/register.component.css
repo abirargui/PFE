@@ -1,0 +1,58 @@
+/* Centrer le formulaire */
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Ajouter un espacement autour du formulaire */
+  p-card {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Espacement entre les champs */
+  .field {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling pour les labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling pour les inputs */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling pour les messages d'erreur */
+  .p-error {
+    color: red;
+  }
+  
+  /* Styling pour le bouton */
+  p-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Styling pour le lien "Login" */
+  .mt-2 a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .mt-2 a:hover {
+    text-decoration: underline;
+  }
+  

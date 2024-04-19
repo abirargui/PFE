@@ -1,0 +1,64 @@
+/* Centrer le contenu */
+.flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style de la barre de navigation */
+  .navbar {
+    background-color: #f8f9fa; /* Couleur de fond */
+    padding: 10px; /* Espacement intérieur */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Taille du texte */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #000; /* Couleur du texte */
+    font-size: 1.2rem; /* Taille du texte */
+    margin-right: 20px; /* Espacement entre les liens */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; /* Couleur du texte au survol */
+  }
+  
+  /* Style du bouton hamburger */
+  .navbar-toggler {
+    border: none; /* Supprimer la bordure */
+  }
+  
+  .navbar-toggler:focus {
+    outline: none; /* Supprimer la bordure de focus */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Couleur de l'icône */
+  }
+  
+  /* Style du contenu principal */
+  .router-outlet {
+    margin-top: 20px; /* Espacement depuis la barre de navigation */
+  }
+  
+  /* Style de la boîte de notification */
+  p-toast {
+    margin-top: 20px; /* Espacement depuis le contenu principal */
+  }
+  .container{
+
+    display: flex;
+    
+    
+}
+
+.sidebar{
+
+    flex: 1;
+}
+
+.mainbar{
+
+    flex: 4;
+}
