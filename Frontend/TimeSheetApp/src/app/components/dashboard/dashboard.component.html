@@ -1,0 +1,30 @@
+<p-panel header="Tableau de bord">
+    <div class="p-grid">
+      <div class="p-col-12 p-md-6 p-lg-3">
+        <div class="p-card">
+          <h5>Total des Utilisateurs</h5>
+          <p>{{ totalUsers }}</p>
+        </div>
+      </div>
+      <div class="p-col-12 p-md-6 p-lg-3">
+        <div class="p-card">
+          <h5>Total des Commandes</h5>
+          <p>{{ totalOrders }}</p>
+        </div>
+      </div>
+      <div class="p-col-12 p-md-6 p-lg-3">
+        <div class="p-card">
+          <h5>Total des Ventes</h5>
+          <p>{{ totalSales | currency:'USD':'symbol':'1.2-2' }}</p>
+        </div>
+      </div>
+      <div class="p-col-12 p-md-6 p-lg-3">
+        <div class="p-card">
+          <h5>Total des Produits</h5>
+          <p>{{ totalProducts }}</p>
+        </div>
+      </div>
+    </div>
+  </p-panel>
+  
+<p-button label="Sign out" (onClick)="logOut()"></p-button>

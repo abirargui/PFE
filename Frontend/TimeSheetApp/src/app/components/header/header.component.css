@@ -1,0 +1,39 @@
+/* header.component.css */
+
+/* Styles pour la barre de navigation */
+.navbar {
+    background-color: #ffffff; /* Couleur de fond de la barre de navigation */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Taille de la police du titre ou du logo */
+    color: #333333; /* Couleur du texte du titre ou du logo */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px; /* Marge à droite entre les éléments de menu */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem; /* Taille de la police des liens de menu */
+    color: #333333; /* Couleur du texte des liens de menu */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Couleur du texte des liens de menu au survol */
+  }
+  
+  .navbar-toggler-icon {
+    color: #333333; /* Couleur de l'icône du bouton de basculement */
+  }
+  
+  /* Styles pour le contenu à l'intérieur de la barre de navigation (par exemple, le logo, le titre, etc.) */
+  .navbar-collapse {
+    justify-content: flex-end; /* Alignement des éléments à droite de la barre de navigation */
+  }
+  
+  /* Styles pour le bouton de basculement sur les écrans de petite taille */
+  .navbar-toggler {
+    border: none; /* Supprime la bordure du bouton de basculement */
+  }
+  

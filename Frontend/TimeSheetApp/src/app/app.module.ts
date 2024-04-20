@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { RegisterComponent } from './components/register/register.component';
-import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
@@ -16,13 +15,28 @@ import { ToastModule } from 'primeng/toast';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MessageService } from 'primeng/api';
 import { AccueilComponent } from './components/accueil/accueil.component';
+import { MenubarModule } from 'primeng/menubar';
+import { ContactComponent } from './components/contact/contact.component';
+import { ProjetsComponent } from './components/projets/projets.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { CarouselModule } from 'primeng/carousel';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { PanelModule } from 'primeng/panel';
+
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
-    HomeComponent,
     LoginComponent,
-    AccueilComponent
+    AccueilComponent,
+    ContactComponent,
+    ProjetsComponent,
+    DashboardComponent,
+    FooterComponent,
+    HeaderComponent,
+
+    
   ],
   imports: [
     BrowserModule,
@@ -33,7 +47,10 @@ import { AccueilComponent } from './components/accueil/accueil.component';
     ButtonModule,
     HttpClientModule,
     ToastModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MenubarModule,
+    CarouselModule,
+    PanelModule
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]

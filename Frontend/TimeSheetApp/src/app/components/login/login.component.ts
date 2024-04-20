@@ -33,12 +33,12 @@ export class LoginComponent {
       response => {
         if (response.length > 0 && response[0].password === password) {
           sessionStorage.setItem('email', email as string);
-          this.router.navigate(['/home']);
+          this.router.navigate(['/dashboard']);
         } else {
           this.msgService.add({ severity: 'error', summary: 'Error', detail: 'email or password is wrong' });
         }
       },
-      error => {
+      _error => {
         this.msgService.add({ severity: 'error', summary: 'Error', detail: 'Something went wrong' });
       }
 

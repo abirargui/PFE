@@ -1,0 +1,7 @@
+<h2>Liste des Employés</h2>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let employee of employees">
+    {{ employee.name }} - {{ employee.position }}
+  </li>
+</ul>

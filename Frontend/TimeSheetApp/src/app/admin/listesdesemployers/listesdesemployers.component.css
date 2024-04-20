@@ -1,0 +1,29 @@
+/* employee-list.component.css */
+
+h2 {
+    color: #333; /* Couleur du titre */
+    font-size: 24px; /* Taille de la police du titre */
+  }
+  
+  .list-group-item {
+    padding: 10px 15px; /* Espacement interne des éléments de la liste */
+    border: none; /* Supprime la bordure des éléments de liste */
+  }
+  
+  .list-group-item:nth-child(even) {
+    background-color: #f2f2f2; /* Couleur de fond des éléments de liste pairs */
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef; /* Couleur de fond au survol des éléments de liste */
+  }
+  
+  /* Styles spécifiques pour le texte des éléments de la liste */
+  .list-group-item span {
+    font-weight: bold; /* Texte en gras */
+  }
+  
+  .list-group-item p {
+    margin-bottom: 0; /* Supprime la marge en bas du paragraphe */
+  }
+  

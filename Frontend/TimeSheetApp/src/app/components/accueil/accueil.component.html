@@ -1,32 +1,5 @@
-<div class="container">
-    <div class="background-image">
-      <div class="content">
-        <h1>Tout se met en place</h1>
-        <p>L'outil qui vous permet de gérer facilement vos finances en un seul endroit.</p>
-        
-        <div class="features">
-          <div class="feature">
-            <p>Budgets? Pas de problème!</p>
-          </div>
-          <div class="feature">
-            <p>Factures? Terminé!</p>
-          </div>
-          <div class="feature">
-            <p>Score de crédit? Vérifié!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <nav>
-      <ul>
-        <li><a href="#">COMMENT ÇA MARCHE</a></li>
-        <li><a href="#">TROUVER DES ÉCONOMIES</a></li>
-        <li><a href="#">ASSISTANCE</a></li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#">Se connecter</a></li>
-        <li><a href="#">S'inscrire</a></li>
-      </ul>
-    </nav>
-  </div>
-  
+<p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
+  <ng-template let-image pTemplate="item">
+      <img src="{{image.source}}" alt="{{image.alt}}" style="display:block;width:100%">
+  </ng-template>
+</p-carousel>
